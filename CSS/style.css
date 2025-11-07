@@ -4,8 +4,78 @@ h3{
     padding: top 50px;
     padding-bottom: 50px;
     padding-left: 12PX;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 H2{
     font-style: italic;
     padding-left: 12PX;
+    color: #2c3e50;
+    text-shadow: 1px 1px 2px #3498db, 
+                 2px 2px 4px rgba(52, 152, 219, 0.3);
+}
+
+/* text trnasform */
+
+.upper{
+    color: green;
+    text-transform: uppercase;
+}
+
+.lower{
+    color: blue;
+    text-transform: lowercase;
+}
+
+.capital{
+    color: red;
+    text-transform: capitalize;
+}
+
+/* tetx align */
+.center{
+    text-align: center;
+   
+}
+.right{
+    text-align: right;
+   
+}
+/* TEXT DECORATION */
+
+.under{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+}
+.over{
+    text-decoration: overline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 5px;
+}       
+
+.line{
+    text-decoration: line-through;
+    text-decoration-color: green;
+    text-decoration-thickness: 5px;
+}
+
+.all{
+    text-decoration: underline overline line-through; ;
+}
+.indent{
+
+    text-indent: 40px;
+    background-color: rgb(216, 221, 231);
+
+
+}
+/* text shadow */
+
+.shadow{
+ 
+    padding: 30px;
+    color: rgb(35, 130, 212);
+    text-transform: uppercase;
+    text-shadow: 12px 12px 8px rgb(150, 150, 150);
+   
 }
