@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions</title>
+</head>
+<style>
+    .box{
+        height: 100px;
+        width: 100px;
+        border: 2px solid rgb(194, 105, 105);
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        line-height: 100px;
+        font-weight: bold;
+    
+    }
+    .box1{
+        position: static;
+        background-color: lightcoral;
+    }
+    .box2{
+        position: relative;
+        top: 20px;
+        left: 20px;
+        margin-bottom: 40px;
+        background-color: lightseagreen;
+    }
+    .box3{
+        position: absolute;
+        top: 150px;
+        left: 500px;
+        background-color: lightblue;
+    }
+    .box4{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        background-color: lightgoldenrodyellow;
+    }
+    .box5{
+        position: sticky;
+        top: 40px;
+        background-color: lightpink;
+    }
+    </style>
+<body>
+     <div class="box box1">static</div>
+    <div class="box box2">Relative</div>
+    <div class="box box3">absolute</div>
+    <div class="box box4">fixed</div>
+    <div class="box box5">sticky</div>
+    <p>Scroll down to see the effect of the sticky position.</p>
+    <div style="height:800px;"></div>       
+
+</body>
+</html>

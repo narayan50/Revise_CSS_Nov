@@ -86,3 +86,21 @@ H2{
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
     margin: 20px;
 }
+.flower{
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: center;
+    padding: 30px;
+    border: 9px rgb(255, 25, 0);
+
+}
+.para{
+    width: 600px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 400px;
+}
