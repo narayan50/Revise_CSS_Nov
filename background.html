@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear_background image</title>
+    <style>
+        .linear-background{
+            background-image: linear-gradient(rgba(226, 96, 96, 0.5),rgba(253, 253, 253, 0.5)), url(IMG/coffee-215383_1280.jpg);
+            height: 500px;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .radial{
+            background-image: radial-gradient(circle, rgb(192, 125, 125), rgb(223, 223, 191), rgb(15, 4, 112)), url(IMG/coffee-215383_1280.jpg);
+            height: 500px;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .conical-background{
+            background-image: conic-gradient(from 180deg, rgb(219, 49, 49), rgb(0, 255, 0), rgb(82, 82, 212), rgb(255, 0, 0)), url(IMG/pexels-goumbik-669502.jpg);
+            height: 500px;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        </style>
+</head>
+<body>
+    <div class="linear-background">
+        <h1>Welcome to My Website</h1>
+        <p>This is a sample paragraph to demonstrate the linear background image effect.</p>
+    </div>
+    <!-- radial -->
+     <div class="radial">
+        <h1>Welcome to My Website</h1>
+        <p>This is a sample paragraph to demonstrate the radial background image effect.</p>
+     </div>
+     <!-- conical -->
+      <div class="conical-background">
+        <h1>Welcome to My Website</h1>
+        <p>This is a sample paragraph to demonstrate the conical background image effect.</p>
+</body>
+</html>

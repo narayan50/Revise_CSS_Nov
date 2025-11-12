@@ -92,7 +92,7 @@ H2{
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: justify;
     margin: center;
     padding: 30px;
     border: 9px rgb(255, 25, 0);
@@ -103,4 +103,21 @@ H2{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 30px;
     width: 400px;
+}
+.flex-container{
+    display: flex;
+    text-decoration: none;
+    background-color: #f1f1f1;
+    padding: 10px;
+    gap: 10px;
+    list-style: none;
+}
+.flex-item{
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+    flex: 1;
 }
