@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>\
+    <style>
+        .container{
+            display: flex;
+            padding: 30px;
+            margin-left: 30px;
+        }
+        .box{
+            background-color: rgb(90, 145, 177);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 150px;
+            width: 160px;
+            color: rgb(255, 255, 255);
+            border-radius: 12px;
+            margin: 20px;
+            transition: transform 2s ease-in ;
+        }
+      
+        .box1:hover{
+            transform: translate(300px ,400px);
+            
+        }
+         .box2:hover{
+            transform: Translatex(900px);
+            
+        }
+        .box3:hover{
+            transform: translateY(500px);
+        }
+         .box4:hover{
+            transform: rotate(90deg);
+        }
+        .box5:hover{
+            transform: skew(90deg);
+        }
+         .box6:hover{
+            transform: Scale(-1.1);
+        }
+        .box7:hover{
+             
+              transform: Translatex(900px) translateY(500px) rotate(90deg) Scale(1.1);
+
+        }
+        .multiple{
+            display: flex;
+            justify-content: center;
+        }
+            
+            
+            
+            
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1">Translate</div>
+      <div class="box box2">TranslateX</div>
+      <div class="box box3">TranslateY</div>
+      <div class="box box4">Rotate</div>
+      <div class="box box5">Skew</div>
+      <div class="box box6">Scale</div>
+      <br>
+     
+    </div>
+    <div class="multiple">    <div  style="display: flex; justify-content: center;" class="box box7">Multiple</div></div>
+  
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color:blueviolet;
+            background-color: wheat;
+            font-size: larger;
+            display: inline-block;
+        }
+        p:hover{
+              display: inline-block;
+            font-size: 50px;
+               background-color: wheat;
+            color: greenyellow;
+
+        }
+        .active:active{
+            color: red;
+            font-size: 30px;
+
+        }
+        input:focus{
+            background-color: rgb(11, 14, 138);
+            color: white;
+        }
+        a:visited{
+            color: darkblue;
+        }
+        div::first-letter{
+            color: green;
+            font-size: 50px;
+
+        }
+        /* selection */
+        ::selection{
+            color: gainsboro;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is example of Pseudo classes</h1>
+
+    <p>Hover over me</p>
+
+    <br>
+     <input type="text" placeholder="Enter Your name">
+    <br>
+    <h3 class="acive">Click on me for effects</h3>
+
+    <h1>Visited link</h1>
+
+   
+    <a href="https://www.youtube.com/watch?v=p5YcEPQPLe8">Download Link</a><br>
+      <a href="https://www.instagram.com/">Download Link</a><br>
+        <a href="https://www.linkedin.com/in/narayan-tamatta-3505901b1/">Download Link</a><br>
+          <a href="">Download Link</a><br>
+
+          <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sunt provident, tenetur debitis temporibus porro minus veritatis ipsam aut aliquam doloribus beatae in, <br>earum nesciunt explicabo eaque. Fuga, eveniet corporis!</div>
+</body>
+</html>
